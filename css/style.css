@@ -84,3 +84,41 @@ span.card__info {
 article.card {
     margin-bottom: 20px;
 }
+
+@media (min-width: 900px) {
+    body {
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .main-section {
+        text-align: start;
+        display: flex;
+        align-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card__info {
+        display: none;
+        top: 250px;
+    }
+    article.card:hover .card__info {
+        display: block;
+    }
+    img.card__image {
+        border-radius: 20px;
+        position: relative;
+        object-fit: cover;
+        width: 400px;
+        height: 500px;
+        align-items: center;
+    }
+}
