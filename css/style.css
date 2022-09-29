@@ -1,5 +1,5 @@
 :root {
-    font-family: "Nunito", sans-serif;
+    --font-family: "Nunito", sans-serif;
     --color-main: #ed6436;
 }
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 html {
-    font-family: "Nunito", sans-serif;
+    font-family: var(--font-family);
 }
 
 * {
@@ -27,12 +27,12 @@ h6 {
 }
 
 input {
-    font-family: "Nunito", sans-serif;
+    font-family: var(--font-family);
 }
 
 .button {
     margin-top: 20px;
-    font-family: "Nunito", sans-serif;
+    font-family: var(--font-family);
     color: white;
     background-color: var(--color-main);
     border: none;
